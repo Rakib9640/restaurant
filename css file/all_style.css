@@ -1,0 +1,91 @@
+*{ margin: 0;padding: 0; box-sizing: border-box;}
+/* ========================= font family ================ */
+.f_res_name{ font-family: Creepster; font-size: 70px;}
+.f_1wolcom{ font-family: Eater;}
+.f_wolcom{ font-family: Bungee Shade;}
+.f_sction_h{ font-family: Nosifer;}
+.f_ru_pictur{font-family: Dancing Script;}
+.f_paragrap{font-family: Alegreya Sans;}
+.f_prata__p{font-family: Prata;}
+.f_prata__pb{font-family: Prata; font-weight: bold;}
+.f_food_name_tk{font-family: Playfair Display SC; font-weight: bold; color: rgb(241, 7, 7) !important;}
+/* =================================================== all Page color control  ========================= */
+/* ------------------ navber color -------------------- */
+.nav_color{ background-color: purple;}
+/* -----------------page color------------------------- */
+.color_bhorta{ background-color: #F2B66D !important;}
+.color_chicken{ background-color: #F2B66D;}
+.color_fast_foos{ background-color: #F2B66D;}
+.color_fish{ background-color: #F2B66D;}
+.color_kebab_grilled{ background-color: #F2B66D;}
+.color-populer_food{background-color: #F2B66D !important;}
+.color_rice{background-color: #F2B66D;}
+.color_salad{background-color: #F2B66D;}
+.color_soft_drinke{background-color: #F2B66D;}
+.color_take_order{background-color: #F2B66D;}
+.color_vagetable{background-color: #F2B66D;}
+/* ---------------- fream & cad color---------------------------- */
+.color_fream_card{background-color: #592202 !important;}
+.color_item_card{background-color: #F2F2F2 !important;}
+/* -------------------fonnt color-------------------------- */
+.color_price{ color: rgb(240, 99, 99);}
+/* ---------------------home page card color----------------- */
+.home_item_card{ background-color: #f5f5d5 !important;}
+/* ============================================================ all hover control ================== */
+/* ----------------------card hover ------------------ */
+.color_item_card:hover{transform: scale(1.02);transition: 2ms;background-color: #F2B66D !important;}
+/* -----------------------home page card hover---------------- */
+.home_item_card:hover{transform: scale(1.02);transition: 2ms;background-color: #bceded !important;}
+.home_food_tk{font-family: Playfair Display SC; font-weight: bold; font-size: 22px !important;}
+/* ---------------------hover img------------------ */
+.hover_card:hover{ transform: scale(2); transition: 3s;}
+/*------------------------ hover button  order----------------- */
+.order_button:hover{ background-color: #49caee; transition: 0.5s; }
+/* -----------------------------navbar hover0 ----------------- */
+.nav-item:hover{ background-color: #DAA520 !important; border-radius: 5px; transition: 1ms; }
+.dropdown-item:hover{ background-color: #DAA520 !important; border-radius: 5px;}
+/* -------------------------- rs name color ----------------------- */
+.world_r{ color: #e6d149; margin-top: 5px;}
+.wel_tex{ color: #e6d149;}
+/* -------------------------- About ------------------------- */
+.continer_color{ background-color: #e6d149 ;}
+.card_color{background-color:  #592202;color: #ecee49;}
+/* ================================== mobail view ============================ */
+/* ---------------mobai view--------- */
+@media screen and (max-width:600px) {
+    .color_fream_card{padding-right: 30px;}
+    .world_r{font-size: 30px;}
+    .wel_tex{font-size: 20px;}
+    .bg_photo{height: 120px !important;width: 80%;}
+    .dive_b{width: 300px}
+    .hedfing_text{ font-size: 20px;}
+    .about_font_siz{font-size: 13px;}
+    .order_button{border: none;background-color: rgb(240, 99, 99);padding: 3px 8px; border-radius: 5px;margin-left: 90px;}
+    .info_card{ background-color: aqua; border-radius: 5px;}
+    .info_box{margin-top: 5rem; margin-left: 1rem;}
+
+ 
+}
+/* ----------------desktop--------- */
+@media (min-width: 601px) {
+    .color_fream_card{background-color: rgb(239, 193, 137); padding: 30px;}
+    .order_button{border: none;background-color: rgb(240, 99, 99);padding: 3px 8px;border-radius: 5px;margin-left: 120px; }
+    .info_card{ background-color: aqua; width: 80%; height: 20%; border-radius: 5px;}
+    .info_box{margin: 12% 16%;}
+
+  
+
+
+}
+.bg_photo{
+    color: #FFFFCC;
+    background-image: url(../all_pictur/rs_photo/background.jpg);
+    background-size: cover;background-repeat: no-repeat;background-position: center;height: 400px;text-align: center;
+
+}
+/* ===================================== hover spinng =========================== */
+.hover_spinng:hover{ transition-duration: 2s;transform:scale( 1.4);}
+
+
+
+

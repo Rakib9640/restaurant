@@ -1,0 +1,11 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Bungee+Shade&family=Creepster&family=Danc
+ing+Script&family=Eater&family=Nosifer&family=Playfair+Display+SC:ital@1&family=Prata&display=swap" rel="stylesheet">
+
+1. resturant-name-------Creepster
+2.wolcome------------- Eater,Bungee Shade
+3. section-name-heading-------Nosifer
+4. resturant-pictur------- Dancing Script
+5. paragraph-------- Alegreya Sans,Prata
+6. food-name,tk-----Playfair Display Sc
