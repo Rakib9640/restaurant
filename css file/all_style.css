@@ -12,6 +12,7 @@
 /* =================================================== all Page color control  ========================= */
 /* ------------------ navber color -------------------- */
 .nav_color{ background-color: purple;}
+.color_search{background-color: green;}
 /* -----------------page color------------------------- */
 .color_bhorta{ background-color: #F2B66D !important;}
 .color_chicken{ background-color: #F2B66D;}
@@ -86,6 +87,64 @@
 /* ===================================== hover spinng =========================== */
 .hover_spinng:hover{ transition-duration: 2s;transform:scale( 1.4);}
 
+/* -----------------buble--------------------- */
+.bubble{
+    width: 80%;
+    position: absolute;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    
+}
+.bubble img{
+    width: 40px;
+    animation: buble 8s linear infinite;
+    background-color: #e6d149a1;
+    border-radius: 50%;
+   
+
+}
+.bubble img:nth-child(1){
+    animation-delay: 1s;
+}
+.bubble img:nth-child(2){
+    animation-delay: 2s;
+}
+
+.bubble img:nth-child(3){
+    animation-delay: 1s;
+}
+
+.bubble img:nth-child(4){
+    animation-delay: 3s;
+}
+
+.bubble img:nth-child(5){
+    animation-delay: 5s;
+}
+
+.bubble img:nth-child(6){
+    animation-delay: 4s;
+}
 
 
+@keyframes buble{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 2;
+    }
+    75%{
+        opacity: 3;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(70vh);
+    }
+
+}
+
+/* --------------------------team card ------------------- */
 
